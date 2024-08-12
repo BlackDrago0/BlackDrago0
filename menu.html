@@ -1,62 +1,18 @@
-!--- navigation code
-
-<nav class="navbar">
-        <button class="nav-button active">PLAY</button>
-        <button class="nav-button">BOOST</button>
-        <button class="nav-button">EARN</button>
-        <button class="nav-button">WALLET</button>
-</nav>
-
-
-!--- css
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-.navbar {
-    display: flex;
-    width: 100%;
-    max-width: 800px;
-    height: 150px;
-    background-color: #333;
-}
-
-.nav-button {
-    flex: 1;
-    background-color: #444;
-    color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.nav-button:hover, .nav-button.active {
-    background-color: #555;
-}
-
-@media screen and (max-width: 768px) {
-    .nav-button {
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .nav-button {
-        font-size: 1rem;
-    }
-}
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale-1.0, minimum-scale=1.0"
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pepeton</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Tap game</h1>
+        <img src="loading_screen.png">
+        <p>Enjoy ur time with pepe</p>
+        <button id="Start_taping">Start taping</button>
+    </div>
+</body>
+</html>
